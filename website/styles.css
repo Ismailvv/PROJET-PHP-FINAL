@@ -1,0 +1,186 @@
+.page {
+  background: radial-gradient(circle, #f2f2f2, #dddddd);
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*margin-top: 100px;*/
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.form_title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: rgb(44, 43, 43);
+}
+
+.button_container {
+  display: flex;
+  flex-direction: row;
+  border-radius: 3px;
+  width: 320px;
+  padding: 10px;
+  margin: -20px;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, #1eb0ef, #87ceec);
+}
+.form_icon {
+  margin: auto;
+  margin-top: -65px;
+  width: 90px;
+}
+
+.form_input {
+  border-radius: 20px;
+  border: solid 1px;
+  height: 30px;
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.form_button {
+  margin: auto;
+  height: 50px;
+  border: solid 0px white;
+  width: 40%;
+  padding: 0px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.column {
+  width: 1px;
+  height: 30px;
+  padding-top: 10px;
+  margin-top: 5px;
+  background: white;
+}
+
+.post_container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin: 20px;
+}
+.post_header {
+  display: flex;
+  height: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #e0eef5;
+  border-radius: 10px;
+  align-items: center;
+}
+.post_control {
+  display: flex;
+  flex-direction: row;
+}
+.post_title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  margin-left: 10px;
+  font-weight: 700;
+  color: #106080;
+}
+.post_body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: medium;
+  margin: 10px;
+  margin-bottom: 40px;
+  color: rgb(44, 43, 43);
+}
+.post_control_icon {
+  width: auto;
+  height: 20px;
+  object-fit: contain;
+  margin: 5px;
+  cursor: pointer;
+}
+.post_footer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.post_comment {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: smaller;
+  color: rgb(88, 87, 87);
+  font-style: italic;
+}
+.comment_text {
+}
+
+.comment_input {
+  border-radius: 5px;
+  width: 40%;
+  border: solid 1px;
+  height: 25px;
+  margin-top: 3px;
+  padding-left: 5px;
+}
+
+.comment_button {
+  height: 30px;
+  border-radius: 5px;
+  border: solid 0px white;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #48a3e0;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.form_post_container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  background: #e0eef5;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  margin: 20px;
+}
+.form_post_header {
+  display: flex;
+  height: 30px;
+  padding-left: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.comment_delete_icon {
+  width: auto;
+  height: 10px;
+  object-fit: contain;
+  margin-left: 10px;
+  margin-right: 10px;
+}

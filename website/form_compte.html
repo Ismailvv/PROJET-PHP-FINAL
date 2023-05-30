@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fomrumlailre de creation de compte</title>
+  </head>
+  <body class="page">
+    <form class="form_container" action="fusion_formulaire.php" method="POST">
+      <img src="image/connexion.png" class="form_icon" />
+      <div class="form_title">Formulaire d'identification</div>
+      Nom utilisateur<input
+        class="form_input"
+        type="texte"
+        name="username"
+      /><br />
+      Mot de passe<input
+        class="form_input"
+        type="password"
+        name="password"
+      /><br />
+      <div class="button_container">
+        <input
+          class="form_button"
+          type="submit"
+          name="connexion"
+          value="Connexion"
+        />
+        <div class="column"></div>
+        <input
+          class="form_button"
+          type="submit"
+          name="creation"
+          value="Creation compte"
+        />
+      </div>
+    </form>
+  </body>
+</html>
